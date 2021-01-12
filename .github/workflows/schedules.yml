@@ -20,4 +20,4 @@ jobs:
     - name: update repo
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN }}
-      run: starred --username sharukhhasan --repository stars --sort --token ${GITHUB_TOKEN} --message "stars monthly update by github actions cron"
+      run: starred --username sharukhhasan --repository stars --sort --token ${GITHUB_TOKEN}
